@@ -4,10 +4,251 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="media/knockout.woff" type="font/woff" crossorigin="anonymous">
+    <link rel="stylesheet" href="media/moonglade.woff" type="font/woff" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cristina Simões - Portfolio</title>
+    <video class="bg-video-back" id="bgVideoBack" poster="media/video-poster-back.jpg" preload="metadata" muted="true" playsinline autoplay>
+        <source src="media/bg-video-back.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video class="bg-video-front" id="bgVideoFront" poster="media/video-poster-front.jpg" preload="metadata" muted="true" playsinline autoplay>
+        <source src="media/bg-video-front.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- MAIN CONTAINER -->
+    <div class="main-container">
+        <nav>
+            <ul class="nav-top">
+                <li class="active">
+                    <a class="underline" id="homeNav" href="#homeSection">cristina <span class="pinto">pinto</span> simões</a>
+                </li>
+                <li>
+                    <a id="projectsNav" href="#projectSection">projects</a>
+                </li>
+            </ul>
+            <ul class="nav-center">
+                <li>
+                    <a href="https://join.skype.com/invite/fZTcTZF6PLsm" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-skype fa-2x scaleButton"></i></a>
+                </li>
+                <li> 
+                    <a href="https://linkedin.com/in/cristinapsimoes"  target="_blank"rel="noopener noreferrer"><i class="fab fa-linkedin-in fa-2x scaleButton"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/cristinasimoes" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github fa-2x scaleButton"></i></a>
+                </li>  
+            </ul>
+            <ul class="nav-bottom">
+                <li>
+                    <a id="aboutNav" href="#aboutSection" >about</a>
+                </li>
+                <li>
+                    <a id="scrollNav" href="#">scroll down</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="scrollWrapper" data-scrolbar>
+            <!-- HOME SECTION -->
+            <section class="home-section" id="homeSection">
+                <article>
+                    <header>
+                      <a>web design &</a>
+                      <a class="second-line">development</a>
+                    </header>
+                    <figure>
+                      <img class="portrait" id="skewer" src="media/portrait.webp" alt="portrait" width="450px" height="360px" >
+                    </figure>
+                  </article>
+            </section>
+            <!-- TEXT SECTION -->
+            <section class="text-section" id="textSection">
+                <article >
+                    <p>
+                      Excelent design and development along with a smooth user experience will quickly convert visitors into customers.<br><br>Get in touch and we can discuss what kind of website your business needs.
+                    </p>
+                  </article>
+            </section>     
+            <!-- PROJECT SECTION -->
+            <section class="project-section" id="projectSection">
+                <!-- PROJECT TITLE -->
+                <article class="project-main-title">
+                    <header>
+                        <a href="#">PROJECTS</a>
+                    </header>
+                </article>
+
+                <!-- box1 -->
+                <article class="project-box" id="projectBox1">
+                    <div class="project-article">
+                    <header>
+                        <a>Flora Hibberd</a>
+                    </header>
+                    <div>
+                        <div>
+                        <a href="#"class="bold" > Year</a>
+                        <a href="#" class="number-font">2020</a>
+                        </div>
+                        <div>
+                        <a href="#" class="bold">Role</a>
+                        <a href="#">Design, Development</a>
+                        </div>
+                    </div>
+                    <div class="box-text">
+                        <p>This website allows you to listen Flora Hibberd songs while reading her Amazing lyrics on the sidebar. The illustrations were drawn by herself and here they are interactive. Click on them and check out her great work.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cristinasimoes.github.io/floraHibberd/" class="bold scaleButton" target="_blank"rel="noopener noreferrer" >See Live</a>
+                        <a href="https://github.com/cristinasimoes/floraHibberd" class="bold scaleButton"target="_blank"rel="noopener noreferrer">Source Code</a>
+                    </div>
+                    </div>
+                    <figure class="menu1">
+                    <a href="https://cristinasimoes.github.io/floraHibberd/" target="_blank"rel="noopener noreferrer" >
+                    <img class="circle1" id="skewer" src="media/flora.webp" width="600px" height="400px" alt="">
+                    </a>
+                    </figure>
+                </article>
+                <!-- box2 -->
+                <article class="project-box" id="projectBox2">
+                    <div class="project-article">
+                    <header>
+                        <a>Visual Studios</a>
+                    </header>
+                    <div>
+                        <div>
+                        <a href="#"class="bold">Year</a>
+                        <a href="#" class="number-font">2020</a>
+                        </div>
+                        <div>
+                        <a href="#" class="bold">Role</a>
+                        <a href="#">Design, Development</a>
+                        </div>
+                    </div>
+                    <div class="box-text">
+                        <p>Visual Studios is a creative agency specializing in multimedia production. This website has the structure of a One Page Startup Website. It's easy to navigate and fully responsive for mobile and tablet</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cristinasimoes.github.io/visualstudios/" target="_blank"rel="noopener noreferrer" class="bold scaleButton ">See Live</a>
+                        <a href="https://github.com/cristinasimoes/visualstudios" target="_blank"rel="noopener noreferrer" class="bold scaleButton ">Source Code</a>
+                    </div>
+                    </div>
+                    <figure class="menu2">
+                    <a href="https://cristinasimoes.github.io/visualstudios/" target="_blank"rel="noopener noreferrer">
+                    <img class="circle2" id="skewer"src="media/visual.webp" width="600px" height="400px" alt="">
+                    </a>
+                    </figure>
+                </article>
+                <!-- box3 -->
+                <article class="project-box" id="projectBox3">
+                    <div class="project-article">
+                    <header>
+                        <a>Book Archive</a>
+                    </header>
+                    <div>
+                        <div >
+                        <a href="#" class="bold">Year</a>
+                        <a href="#" class="number-font">2020</a>
+                        </div>
+                        <div>
+                        <a href="#" class="bold">Role</a>
+                        <a href="#">Design, Development</a>
+                        </div>
+                    </div>
+                    <div class="box-text">
+                        <p>Book Archive is an aplication that functions as a book library. It was created to keep track of books from an Arquitecture Atelier. The data is saved on the browser local storage and the background colors can be changed and saved.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cristinasimoes.github.io/bookarchive/" target="_blank"rel="noopener noreferrer" class="bold scaleButton">See Live</a>
+                        <a href="https://github.com/cristinasimoes/bookarchive" target="_blank"rel="noopener noreferrer" class="bold scaleButton">Source Code</a>
+                    </div>
+                    </div>
+                    <figure class="menu3">
+                        <a href="https://cristinasimoes.github.io/bookarchive/" target="_blank"rel="noopener noreferrer">
+                        <img class="circle3" id="skewer" src="media/book.webp" alt="" width="600px" height="400px">
+                        </a>
+                    </figure>
+                </article>
+            </section>     
+            <!-- ABOUT SECTION -->
+            <section class="about-section" id="aboutSection">
+                        <!-- about title -->
+        <article class="about-title">
+            <header>
+              <a href="#">ABOUT</a>
+            </header>
+          </article>
+          <!-- information container -->
+          <article class="about-info">
+            <div class="about-text">
+              <p>Hi! I'am Cristina, I'm from Portugal and currently live in Germany, working  as a freelance Web developer.
+              During my academic years studying Mathematics I had the opportunity to learn different programming languages and how much fun it is to design and develop websites and applications.
+              For me, freelancing is a great choice because it gives me the freedom to do what I love while working with people I want to collaborate with.
+              </p>
+            </div>
+            <ul class="nav-center">
+              <li>
+                <a class="icon" id="icon1" href="https://join.skype.com/invite/fZTcTZF6PLsm" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-skype fa-2x"></i></a>
+              </li>
+              <li> 
+                <a class="icon" id="icon2" href="https://linkedin.com/in/cristinapsimoes
+                " target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in fa-2x"></i></a>
+              </li>
+              <li>
+                <a class="icon" id="icon3"href="https://github.com/cristinasimoes" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github fa-2x"></i></a>
+              </li>
+            </ul>
+            <div class="info">
+              <div class="mail">
+                <p class="bold">EMAIL</p>
+                <div onclick="copyElementText('.emailtag')" id="clipboard">
+                  <a  class="emailtag source1" href="#">cristinapinto.simoes@gmail.com</a>
+                  <a href="#" class="iconCopy"><i  class="fas fa-copy"></i></a>
+                  <a class="copyto">copy</a>
+                </div>
+              </div>
+              <div class="phone">
+                <p class="bold">PHONE</p>
+                <div onclick="copyElementText('.phonetag')" id="clipboard2">
+                  <a href="#" class="phonetag number-font source1">00351916671142</a>
+                  <a href="#" class="iconCopy2"><i  class="fas fa-copy"></i></a>
+                  <a class="copyto2">copy</a>
+                </div>
+              </div>
+              <div class="adress">
+                <p class="bold">BASED IN</p>
+                <a href="#">Germany</a>
+              </div>
+              <div class="follow">
+                  <p class="bold">FOLLOW</p>
+                  <a href="https://github.com/cristinasimoes" target="_blank" rel="noopener noreferrer" class="scaleButton">GitHub</a>
+                  <a href="https://linkedin.com/in/cristinapsimoes"  target="_blank"rel="noopener noreferrer"class="scaleButton">Linkedin</a>
+                  <a href="https://join.skype.com/invite/fZTcTZF6PLsm" target="_blank" rel="noopener noreferrer"class="scaleButton">Skype</a>
+              </div>
+            </div>
+          </article>
+            </section>
+        </div>
+    </div>
 </head>
 <body>
+    <!-- ANIMATION PROJECT PHOTOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!-- FONT AWESOME ICONS -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <!-- JQUERY CDN - INTERACTIVE CURSOR -->
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!-- GSAP -->
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- App -->
     <script src="app.js"></script>
 </body>
 </html>
