@@ -737,6 +737,15 @@ figure img{
     .project-section a, .project-section p{
         letter-spacing: 3px;
     }
+    .iconCopy{
+        margin: 0px 0px 0 62vw;
+
+    }
+    .copyto{
+        margin: 0px 0 0 67vw;
+
+    }
+
 }
 @media screen and (max-width: 320px) {
     .project-article header a {
